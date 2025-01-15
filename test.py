@@ -1,0 +1,9 @@
+first_name = 'Arijit'
+last_name = "Das"
+
+def combine_names(first,last):
+     full = "{} {}".format(first, last)
+     return full
+    
+full_name = combine_names(first_name,last_name)
+print(full_name)
